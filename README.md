@@ -4,6 +4,8 @@
 
 `docker build -t nico:jupyter .`
 
+NOTE: `start.sh` is of no use for actually building the image, it is used by the image for starting and hashing the password.
+
 ## How to run
 
 ```
