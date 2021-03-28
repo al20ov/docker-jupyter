@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  jupyter:
+    build: './jupyter'
+    environment:
+      - JUPYTER_PASSWORD=password
+    ports:
+      - '8080:8080'
+    volumes:
+      - './notebooks:/root/notebooks'
